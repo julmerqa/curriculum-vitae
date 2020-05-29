@@ -1,0 +1,329 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+.clear {
+	clear:both;
+}
+
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #e1e0db;
+	background-repeat: repeat;
+	font-size:13px;
+	line-height: 17px;
+	color:#000;
+}
+
+
+#wrapper {
+	width:969px;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+.wrapper-top {
+	width:969px;
+	height:19px;
+	margin:0 auto;
+	background-repeat:no-repeat;
+}
+
+.wrapper-mid {
+	width:969px;
+	margin:0 auto;
+	background-image:url(../images/bmid.jpg);
+	background-repeat: repeat-y;
+	padding-bottom:40px;
+}
+
+.wrapper-bottom {
+	width:969px;
+	height:22px;
+	padding:0;
+	margin:0 auto;
+	background-repeat:no-repeat;
+}
+
+#paper {
+	width:828px;
+	margin:0 auto;
+}
+
+.paper-top {
+	width:828px;
+	margin:0 auto;
+	background-image:url(../images/ptop.jpg);
+	background-repeat:no-repeat;
+	height:126px;
+}
+
+#paper-mid {
+	width:828px;
+	margin:0 auto;
+	background-image:url(../images/pmid.jpg);
+	background-repeat:repeat-y;
+	display:block;
+	padding:0;
+	overflow: hidden;
+	padding-bottom:75px;
+	padding-top:7px;
+}
+
+.entry {
+	width:720px;
+	display: block;
+	padding-top:55px;
+	clear: both;
+	margin-left:4px;
+}
+
+h1  {
+	width:250px;
+	font-size:25px;
+	color:#51383b;
+	margin-bottom:3px;
+	clear:both;
+	padding-top: 20px;
+}
+
+h1 span {
+	font-size:18px;
+	display:block;
+	color:#51383b;
+	margin-top:-5px;
+	padding-top: 20px;
+}
+
+h2 {
+	width:180px;
+	height: 23px;
+	text-align: right;
+	float:left;
+	padding:0;
+	margin:0;
+	clear:both;
+	font-size:22px;
+	color:#51383b;
+	margin-bottom:-12px;
+}
+
+p {
+	width:500px;
+	margin-left:40px;
+	float:right;	
+}
+
+p img {
+	float:right;
+	margin-left:20px;
+	padding-left:10px;
+}
+
+div.content {
+	clear: both;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+	display:block;
+	padding-top:32px;
+}
+
+h3 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 15px;
+	color:#7d6a6c;
+}
+
+h4 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 11px;
+	color:#7d6a6c;
+}
+
+h5 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 10px;
+	color:#7d6a6c;
+}
+
+h6 {
+	width:180px;
+	text-align: right;
+	float:left;
+	padding:0;
+	clear:both;
+	font-size: 9px;
+	color:#7d6a6c;
+}
+
+em {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	color:black;
+	font-size:12px;
+	display: block;
+	padding-top:3px;
+}
+
+
+ol {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style: decimal;
+	
+}
+
+ol li {
+	width:500px;
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+dl {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	
+}
+
+dt {
+	float:left;
+	display: block;
+	width:500px;
+	color:#7d6a6c;
+}
+
+
+ul.info {
+	float:right;
+	width:500px;
+	margin-left:40px;
+	list-style-type: none;
+	color: 350205;
+
+}
+
+
+ul.skills {
+	margin:0;
+	padding:0;
+	float:right;
+	width:500px;
+	margin-left:40px;
+	margin-top:-6px;
+	list-style-type: none;
+	
+}
+
+ul.skills li {
+	margin:0;
+	padding:0;
+	font-size: 12px;
+	float:left;
+	width:156px;
+	background-repeat: no-repeat;
+	padding-left:10px;
+	background-position: 0 .5em;
+	margin-top:6px;
+	color: 068870;
+}
+
+img.portrait {
+	background-repeat: no-repeat;
+	width:140px;
+	height:180px;
+	padding-top:15px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:50px;
+	float:left;
+	box-shadow: 5px 5px 5px black;
+}
+
+.self {
+	width:250px;
+	float:left;
+	padding-top:11px;
+	margin-left:38px;
+	margin-bottom:15px;
+}
+
+.self ul {
+	padding-top: 20px;
+}
+
+.self ul li.ad {
+	background-image:url(../images/icn-ad.gif);
+}
+
+.self ul li.mail {
+	background-image:url(../images/icn-mail.gif);
+}
+
+.self ul li.tel {
+	background-image:url(../images/icn-tel.gif);
+}
+
+
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:26px;
+	background-position: 0 .1em;
+	height:25px;
+	display:block;
+	margin-top:-2px;
